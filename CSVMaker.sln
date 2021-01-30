@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVMaker", "CSVMaker\CSVMaker.csproj", "{17409482-A765-41B4-B9D7-D26C1E25FE24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17409482-A765-41B4-B9D7-D26C1E25FE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17409482-A765-41B4-B9D7-D26C1E25FE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17409482-A765-41B4-B9D7-D26C1E25FE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17409482-A765-41B4-B9D7-D26C1E25FE24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DD41C5A-C6D9-4C8C-80C9-2C9D7EEB6AA2}
+	EndGlobalSection
+EndGlobal
