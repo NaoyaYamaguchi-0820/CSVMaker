@@ -52,6 +52,13 @@ namespace CSVMaker
             // HTMLファイルをListに変換する
             List<List<string>> list = HtmlToList.GetList(this.TextBox_Path.Text);
 
+            // Listに変換できなかった場合は処理を終了させる
+            if (list == null)
+            {
+                MessageBox.Show("HTMLファイルの解析に失敗しました");
+                return;
+            }
+
             // Listをもとに、CSVファイルを生成する
             CsvWriter.CreateCsv(list);
 
